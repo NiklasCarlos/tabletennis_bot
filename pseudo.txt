@@ -1,0 +1,12 @@
+<div class="ta-slots__week"><div class="ta-slots__week__label">Di, 27.12.2022</div>
+<div class="ta-slots__week__slots"><div class="ta-hover-popup disabled">
+
+<div class="ta-hover-popup__content top auto-size"><span class="">15,00&nbsp;€</span></div><div class="ta-hover-popup__trigger">
+<div class="ta-slots__slot ta-cta-secondary">13:30</div></div></div><div class="ta-hover-popup disabled">
+<div class="ta-hover-popup__content top auto-size"><span class="">15,00&nbsp;€</span></div>
+<div class="ta-hover-popup__trigger"><div class="ta-slots__slot ta-cta-secondary">14:00</div></div></div>
+<div class="ta-hover-popup disabled"><div class="ta-hover-popup__content top auto-size"><span class="">15,00&nbsp;€</span></div><div class="ta-hover-popup__trigger"><div class="ta-slots__slot ta-cta-secondary">14:30</div></div></div><div class="ta-hover-popup disabled"><div class="ta-hover-popup__content top auto-size"><span class="">15,00&nbsp;€</span></div><div class="ta-hover-popup__trigger">
+<div class="ta-slots__slot ta-cta-secondary">15:00</div></div></div></div></div>
+
+
+getallElem(ta-slots__week)) forEach -> check time 
