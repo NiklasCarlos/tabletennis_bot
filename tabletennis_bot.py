@@ -30,7 +30,7 @@ class tabletennis_bot:
         iframe = self.driver.find_elements(By.TAG_NAME,'iframe')[0]
         self.driver.switch_to.frame(iframe)
 
-       #vermietung 60min suchen -> funkt nicht wegen iframe von timify
+       #vermietung 60min suchen ->  iframe von timify
         l3 = self.driver.find_element("xpath", '//*[@id="app"]/div[2]/div[2]/div[2]/div[5]/div/div/div/div[2]/div/div[1]/div/div[3]/button')
         
 
