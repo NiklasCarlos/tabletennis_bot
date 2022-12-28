@@ -10,3 +10,15 @@
 
 
 getallElem(ta-slots__week)) forEach -> check time 
+
+
+var x = document.getElementsByClassName('ta-slots__week')
+-> problem gibt auch .bookedout mit -> filter
+
+const testElements = document.getElementsByClassName('ta-slots__week');
+const testDivs = Array.prototype.filter.call(
+  testElements,
+  (testElement) => testElement.className === 'ta-slots__week',
+);
+
+-> testDivs - mit if statement tage analyiseren
