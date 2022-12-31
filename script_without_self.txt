@@ -1,0 +1,23 @@
+driver = webdriver.Chrome('C:/Users/Niklas/Desktop/Projekte/chromedriver.exe')
+
+
+driver.get("https://www.contra-berlin.de/conb_de/tt-schule-spielen/tischvermietung.html")
+       
+	   
+log_btn =  driver.find_element("xpath", '//*[@id="ccm-widget"]/div/div[2]/div[2]/button[2]')
+        
+		
+log_btn.click()
+
+
+l2 = driver.find_element("xpath", '//*[@id="top"]/body/div[1]/div/div/section/div/div/div[2]/div/div/div')
+
+l2.click()
+
+iframe = driver.find_elements(By.TAG_NAME,'iframe')[0]
+	  
+driver.switch_to.frame(iframe)
+
+l3 = driver.find_element("xpath", '//*[@id="app"]/div[2]/div[2]/div[2]/div[5]/div/div/div/div[2]/div/div[1]/div/div[3]/button')
+        
+l3.click()
