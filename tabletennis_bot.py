@@ -6,6 +6,7 @@
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from time import sleep
 
 class tabletennis_bot:
 
@@ -17,6 +18,7 @@ class tabletennis_bot:
     def open_website(self):
         self.driver.get("https://www.contra-berlin.de/conb_de/tt-schule-spielen/tischvermietung.html")
         
+        sleep(4)
         #popup cookies button -> accept fun
         log_btn =  self.driver.find_element("xpath", '//*[@id="ccm-widget"]/div/div[2]/div[2]/button[2]')
         #evtl wait to load fun einbinden
@@ -42,8 +44,13 @@ class tabletennis_bot:
         
         l3.click()
 
+#bot = tabletennis_bot()
 
-        
+#bot.open_website()
+#sleep(3)
+#bot.open_booking_screen()
+#sleep(3)
+#bot.switch_frame()
 
         # driver.page_source
         #For improved reliability, you should consider using WebDriverWait in combination with element_to_be_clickable.
