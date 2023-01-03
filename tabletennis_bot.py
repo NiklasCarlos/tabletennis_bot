@@ -34,6 +34,8 @@ class tabletennis_bot:
         #TODO wait function einbauen 
         l2.click()
 
+        sleep(4)
+
     def switch_frame(self):
         #switch frame
         iframe = self.driver.find_elements(By.TAG_NAME,'iframe')[0]
@@ -43,6 +45,23 @@ class tabletennis_bot:
         l3 = self.driver.find_element("xpath", '//*[@id="app"]/div[2]/div[2]/div[2]/div[5]/div/div/div/div[2]/div/div[1]/div/div[3]/button')
         
         l3.click()
+
+    def check_date(self):
+        #get elements
+
+        #check if Di 18.00, 19.00 oder 1930 is available 
+      element = self.driver.find_element(By.XPATH,'//*[contains(text(), "Di")]')
+      #from selenium.webdriver.common.by import By
+    #https://stackoverflow.com/questions/24795198/get-all-child-elements
+    #parentElement = driver.find_element(By.CLASS_NAME,"bar")
+    #elementList = parentElement.find_elements(By.TAG_NAME,"li")
+
+    #learn xpath
+    #https://www.tutorialspoint.com/find-next-sibling-element-in-selenium-python#:~:text=We%20can%20find%20a%20next,with%20the%20help%20of%20xpath.
+
+
+
+      
 
 #bot = tabletennis_bot()
 

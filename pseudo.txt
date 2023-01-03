@@ -1,19 +1,32 @@
-<div class="ta-slots__week"><div class="ta-slots__week__label">Di, 27.12.2022</div>
+<div class="ta-slots__week">
+<div class="ta-slots__week__label">Di, 03.01.2023</div>
 <div class="ta-slots__week__slots"><div class="ta-hover-popup disabled">
-
-<div class="ta-hover-popup__content top auto-size"><span class="">15,00&nbsp;€</span></div><div class="ta-hover-popup__trigger">
-<div class="ta-slots__slot ta-cta-secondary">13:30</div></div></div><div class="ta-hover-popup disabled">
 <div class="ta-hover-popup__content top auto-size"><span class="">15,00&nbsp;€</span></div>
-<div class="ta-hover-popup__trigger"><div class="ta-slots__slot ta-cta-secondary">14:00</div></div></div>
-<div class="ta-hover-popup disabled"><div class="ta-hover-popup__content top auto-size"><span class="">15,00&nbsp;€</span></div><div class="ta-hover-popup__trigger"><div class="ta-slots__slot ta-cta-secondary">14:30</div></div></div><div class="ta-hover-popup disabled"><div class="ta-hover-popup__content top auto-size"><span class="">15,00&nbsp;€</span></div><div class="ta-hover-popup__trigger">
-<div class="ta-slots__slot ta-cta-secondary">15:00</div></div></div></div></div>
-
+<div class="ta-hover-popup__trigger"><div class="ta-slots__slot ta-cta-secondary">10:00</div></div></div>
+<div class="ta-hover-popup disabled"><div class="ta-hover-popup__content top auto-size"><span class="">15,00&nbsp;€</span></div>
+<div class="ta-hover-popup__trigger"><div class="ta-slots__slot ta-cta-secondary">10:30</div></div></div><div class="ta-hover-popup disabled">
+<div class="ta-hover-popup__content top auto-size"><span class="">15,00&nbsp;€</span></div><div class="ta-hover-popup__trigger">
+<div class="ta-slots__slot ta-cta-secondary">11:00</div></div></div><div class="ta-hover-popup disabled">
+<div class="ta-hover-popup__content top auto-size"><span class="">15,00&nbsp;€</span></div><div class="ta-hover-popup__trigger">
+<div class="ta-slots__slot ta-cta-secondary">11:30</div></div></div><div class="ta-hover-popup disabled">
+<div class="ta-hover-popup__content top auto-size"><span class="">15,00&nbsp;€</span></div><div class="ta-hover-popup__trigger">
+<div class="ta-slots__slot ta-cta-secondary">12:00</div></div></div><div class="ta-hover-popup disabled">
+<div class="ta-hover-popup__content top auto-size"><span class="">15,00&nbsp;€</span></div><div class="ta-hover-popup__trigger">
+<div class="ta-slots__slot ta-cta-secondary">12:30</div></div></div><div class="ta-hover-popup disabled">
+<div class="ta-hover-popup__content top auto-size"><span class="">15,00&nbsp;€</span></div><div class="ta-hover-popup__trigger">
+<div class="ta-slots__slot ta-cta-secondary">13:00</div></div></div><div class="ta-hover-popup disabled">
+<div class="ta-hover-popup__content top auto-size"><span class="">15,00&nbsp;€</span></div><div class="ta-hover-popup__trigger">
+<div class="ta-slots__slot ta-cta-secondary">13:30</div></div></div><div class="ta-hover-popup disabled"><div class="ta-hover-popup__content top auto-size"><span class="">15,00&nbsp;€</span></div><div class="ta-hover-popup__trigger">
+<div class="ta-slots__slot ta-cta-secondary">14:00</div></div></div><div class="ta-hover-popup disabled"><div class="ta-hover-popup__content top auto-size"><span class="">15,00&nbsp;€</span></div><div class="ta-hover-popup__trigger">
+<div class="ta-slots__slot ta-cta-secondary">14:30</div></div></div></div>
+<span class="ta-slots__show-more show-all">Weniger anzeigen</span></div>	
 
 getallElem(ta-slots__week)) forEach -> check time 
 
 
 var x = document.getElementsByClassName('ta-slots__week')
 -> problem gibt auch .bookedout mit -> filter
+-> get class where innerText contains di
 
 const testElements = document.getElementsByClassName('ta-slots__week');
 const testDivs = Array.prototype.filter.call(
